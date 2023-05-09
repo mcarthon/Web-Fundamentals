@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0px 20%;
+}
+
+.card {
+    flex: 1;
+    border: 2px rgb(197, 193, 193) solid;
+    border-width: 4px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 100px;
+}
+
+.top {
+    background-color: rgb(17, 148, 153);
+    height: 150px;
+}
+
+#profilepic {
+    position: absolute;
+    height: 100px;
+    top: 210px;
+    left: 532px;
+    border: 5px solid rgb(206, 204, 204);
+    border-radius: 100%;
+}
+
+.location {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.location>img {
+    height: 30px;
+}
+
+.location>h2 {
+    margin-left: 10px;
+}
+
+.editProfile {
+    display: flex;
+    align-items: center;
+}
+
+.bottom {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.jobDescription {
+    margin: 5px 0px;
+}
+
+.editProfile {
+    margin: 10px 0px;
+}
+
+.editProfile>img {
+    height: 25px;
+}
+
+.editProfile>h3 {
+    margin-left: 8px;
+}
+
+.nav {
+    display: flex;
+    border-style: solid;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(50, 58, 65, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.nav-title {
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin-left: 500px;
+}
+
+a {
+    margin-right: 100px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(247, 245, 245);
+}
+
+li::marker {
+    content: "";
+}
+
+button {
+    font-size: 20px;
+    box-shadow: 4px 5px black;
+    background-color: lightblue;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+    padding: 5px;
+    margin-left: 425px;
+}
+
+.connection-requests {
+    flex: 1;
+    height: 350px;
+    margin-top: 15px;
+}
+
+.edit-profile-link {
+    color: blue;
+    font-size: 20px;
+}
+
+.connection-requests-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(71, 71, 71);
+    height: 100px;
+    border: 10px solid black;
+}
+
+.connection-requests-top > #numConnReq {
+    display: flex;
+    margin-right: 50px;
+    background-color: rgb(128, 128, 128);
+    color: black;
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.connection-requests-bottom {
+    border: 10px solid gray;
+    border-top: none;
+}
+
+#connReq {
+    color: white;
+}
+
+.topFriendDiv , .botFriendDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botFriendDiv {
+    justify-content: space-between;
+    padding: 9px;
+}
+
+.top-friend , .bot-friend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    margin-top: 15px;
+}
+
+.top-friend-circle, .bot-friend-circle{
+    height: 100px;
+    margin-right: 30px;
+}
+
+#topX, #botX {
+    margin-left: 20px;
+}
+
+.bot-friend-circle {
+    margin-left: -15px;
+}
+
+.bot-friend {
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.bot-friend > h1 {
+    margin-left: 5px;
+}
+
+.current-connections {
+    border: 10px solid black;
+    width: 27%;
+    margin-left: 52.2%;
+    height: 590px;
+}

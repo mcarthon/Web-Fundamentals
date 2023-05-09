@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ProfilePage.css">
+</head>
+
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+            <li><button class="btn">Sign Out</button></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="top">
+                <img id="profilepic" src="./icons/user-circle.png">
+            </div>
+            <div class="bottom">
+                <h1>
+                    Jane Doe
+                </h1>
+                <div class="location">
+                    <img src="./icons/map-marker.png">
+                    <h2>
+                        Seattle
+                    </h2>
+                </div>
+                <h3 class="jobTitle">
+                    Developer | Engineer | Problem Solver
+                </h3>
+                <h3 class="jobDescription">
+                    Master of Shadows and the Internet!
+                </h3>
+                <div class="editProfile">
+                    <img src="./icons/gear.png">
+                    <h3>
+                        <a class="edit-profile-link" href=""><u>edit profile</u></a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="connection-requests">
+            <div class="connection-requests-top">
+                <h1 id="numConnReq">
+                    2
+                </h1>
+                <h1 id="connReq">
+                    Connection Requests
+                </h1>
+            </div>
+            <div class="connection-requests-bottom">
+                <div class="topFriendDiv">
+                    <div class = "top-friend">
+                        <img src="./icons/user-circle.png" class="top-friend-circle">
+                        <h1>
+                            Todd E
+                        </h1>
+                    </div>
+                    <div class = "topAcceptOrNah">
+                        <img src = "./icons/accept-circle.png" id = "topcheck">
+                        <img src = "./icons/close-circle.png" id = "topX">
+                    </div>
+                </div>
+                <div class="botFriendDiv">
+                    <div class = "bot-friend">
+                        <img src="./icons/user-circle.png" class="bot-friend-circle">
+                        <h1>
+                            Phil K
+                        </h1>
+                    </div>
+                    <div class = "botAcceptOrNah">
+                        <img src = "./icons/accept-circle.png" id = "botcheck">
+                        <img src = "./icons/close-circle.png" id = "botX">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class = "current-connections">
+
+    </div>
+
+
+</body>
+
+</html>
