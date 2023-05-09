@@ -135,7 +135,7 @@ button {
     font-size: 20px;
 }
 
-.connection-requests-top {
+.connection-requests-top, .current-connections-top {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,7 +144,7 @@ button {
     border: 10px solid black;
 }
 
-.connection-requests-top > #numConnReq {
+.connection-requests-top > #numConnReq, #numConn {
     display: flex;
     margin-right: 50px;
     background-color: rgb(128, 128, 128);
@@ -157,16 +157,16 @@ button {
     font-size: 60px;
 }
 
-.connection-requests-bottom {
+.connection-requests-bottom,  .current-connections-bot {
     border: 10px solid gray;
     border-top: none;
 }
 
-#connReq {
+#connReq, #urConn {
     color: white;
 }
 
-.topFriendDiv , .botFriendDiv{
+.topFriendDiv , .botFriendDiv, .first-connection, .second-connection, .third-connection, .fourth-connection{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,7 +177,7 @@ button {
     padding: 9px;
 }
 
-.top-friend , .bot-friend {
+.top-friend , .bot-friend, #first-friend,  #second-friend, #third-friend, #fourth-friend {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,7 +185,7 @@ button {
     margin-top: 15px;
 }
 
-.top-friend-circle, .bot-friend-circle{
+.top-friend-circle, .bot-friend-circle, #first-friend,  #second-friend, #third-friend, #fourth-friend {
     height: 100px;
     margin-right: 30px;
 }
@@ -209,8 +209,28 @@ button {
 }
 
 .current-connections {
-    border: 10px solid black;
-    width: 27%;
-    margin-left: 52.2%;
+    width: 26%;
+    margin-left: 53.3%;
     height: 590px;
+}
+
+#numConn {
+    width: 140px;
+    height: 90px;
+}
+
+#first-friend {
+    margin-left: -300px;
+}
+
+#second-friend {
+    margin-left: -335px;
+}
+
+#third-friend {
+    margin-left: -310px;
+}
+
+#fourth-friend {
+    margin-left: -337px;
 }
