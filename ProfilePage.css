@@ -7,7 +7,7 @@
 
 .container {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     margin: 0px 20%;
 }
@@ -135,7 +135,9 @@ button {
     font-size: 20px;
 }
 
-.connection-requests-top, .current-connections-top {
+.connection-requests-top,
+.current-connections-top,
+.edu-top {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,7 +146,8 @@ button {
     border: 10px solid black;
 }
 
-.connection-requests-top > #numConnReq, #numConn {
+.connection-requests-top>#numConnReq,
+#numConn {
     display: flex;
     margin-right: 50px;
     background-color: rgb(128, 128, 128);
@@ -157,16 +160,23 @@ button {
     font-size: 60px;
 }
 
-.connection-requests-bottom,  .current-connections-bot {
+.connection-requests-bottom,
+.current-connections-bot {
     border: 10px solid gray;
     border-top: none;
 }
 
-#connReq, #urConn {
+#connReq,
+#urConn {
     color: white;
 }
 
-.topFriendDiv , .botFriendDiv, .first-connection, .second-connection, .third-connection, .fourth-connection{
+.topFriendDiv,
+.botFriendDiv,
+.first-connection,
+.second-connection,
+.third-connection,
+.fourth-connection {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,7 +187,12 @@ button {
     padding: 9px;
 }
 
-.top-friend , .bot-friend, #first-friend,  #second-friend, #third-friend, #fourth-friend {
+.top-friend,
+.bot-friend,
+#first-friend,
+#second-friend,
+#third-friend,
+#fourth-friend {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,12 +200,18 @@ button {
     margin-top: 15px;
 }
 
-.top-friend-circle, .bot-friend-circle, #first-friend,  #second-friend, #third-friend, #fourth-friend {
+.top-friend-circle,
+.bot-friend-circle,
+#first-friend,
+#second-friend,
+#third-friend,
+#fourth-friend {
     height: 100px;
     margin-right: 30px;
 }
 
-#topX, #botX {
+#topX,
+#botX {
     margin-left: 20px;
 }
 
@@ -204,7 +225,7 @@ button {
     margin-left: 10px;
 }
 
-.bot-friend > h1 {
+.bot-friend>h1 {
     margin-left: 5px;
 }
 
@@ -233,4 +254,51 @@ button {
 
 #fourth-friend {
     margin-left: -337px;
+}
+
+.view-more {
+    border: 10px solid gray;
+    border-top: none;
+    text-align: center;
+}
+
+#view-more-text {
+    color: blue;
+}
+
+.edjabacation {
+    width: 30%;
+    position: absolute;
+    bottom: 200px;
+    right: 1200px;
+    top: 600px;
+}
+
+.edu-top {
+    color: white;
+    
+}
+
+.edu-top > h1 {
+    margin-left: -300px;
+}
+
+.edu-bot {
+    border: 10px solid gray;
+    border-top: none;
+    height: 300px;
+}
+
+.edu-bot > h2 {
+    margin-left: 104px;
+}
+
+.edu-bot > h3 {
+    padding: 20px;
+    margin-left: 90px;
+}
+
+.edu-bot > h1 {
+    text-align: center;
+    padding-top: 30px;
 }
