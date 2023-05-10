@@ -5,11 +5,11 @@ h1 {
 .firstBlock {
     background-color: lightblue;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     padding: 20px;
-    width: 40%;
-    margin-left: 30%;
+    width: 50%;
+    margin-left: 25%;
 
 }
 
@@ -21,7 +21,7 @@ h1 {
 .secondBlock {
     background-color: rgba(119, 119, 0, 0.411);
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     padding: 20px;
     width: 40%;
@@ -32,11 +32,11 @@ h1 {
 .thirdBlock {
     background-color: rgb(121, 58, 58);
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     padding: 20px;
-    width: 40%;
-    margin-left: 30%;
+    width: 50%;
+    margin-left: 25%;
 
 }
 
