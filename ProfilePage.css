@@ -9,18 +9,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0px 20%;
 }
 
 .card {
-    flex: 1;
     border: 2px rgb(197, 193, 193) solid;
     border-width: 4px;
     border-radius: 5px;
     padding: 10px;
     margin-top: 50px;
     font-family: 'Roboto', sans-serif;
-    margin-right: 100px;
+    margin-right: 130px;
+    width: 30%;
 }
 
 .top {
@@ -31,8 +30,8 @@
 #profilepic {
     position: absolute;
     height: 100px;
-    top: 210px;
-    left: 532px;
+    top: 220px;
+    left: 360px;
     border: 5px solid rgb(206, 204, 204);
     border-radius: 100%;
 }
@@ -91,7 +90,7 @@
     align-items: center;
     justify-content: left;
     width: 100%;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .nav-title {
@@ -125,7 +124,7 @@ button {
 }
 
 .connection-requests {
-    flex: 1;
+    /* flex: 1; */
     height: 350px;
     margin-top: 15px;
 }
@@ -171,8 +170,6 @@ button {
     color: white;
 }
 
-.topFriendDiv,
-.botFriendDiv,
 .first-connection,
 .second-connection,
 .third-connection,
@@ -183,7 +180,7 @@ button {
 }
 
 .botFriendDiv {
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 9px;
 }
 
@@ -215,24 +212,11 @@ button {
     margin-left: 20px;
 }
 
-.bot-friend-circle {
-    margin-left: -15px;
-}
-
-.bot-friend {
-    height: 100px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-
-.bot-friend>h1 {
-    margin-left: 5px;
-}
-
 .current-connections {
     width: 26%;
     margin-left: 53.3%;
     height: 590px;
+    margin-top: 70px;
 }
 
 #numConn {
@@ -241,19 +225,19 @@ button {
 }
 
 #first-friend {
-    margin-left: -300px;
+    margin-left: -200px;
 }
 
 #second-friend {
-    margin-left: -335px;
+    margin-left: -220px;
 }
 
 #third-friend {
-    margin-left: -310px;
+    margin-left: -190px;
 }
 
 #fourth-friend {
-    margin-left: -337px;
+    margin-left: -210px;
 }
 
 .view-more {
@@ -270,7 +254,7 @@ button {
     width: 30%;
     position: absolute;
     bottom: 200px;
-    right: 1200px;
+    right: 1000px;
     top: 600px;
 }
 
@@ -290,15 +274,55 @@ button {
 }
 
 .edu-bot > h2 {
-    margin-left: 104px;
+    margin-left: 35px;
 }
 
 .edu-bot > h3 {
     padding: 20px;
-    margin-left: 90px;
+    margin-left: 20px;
 }
 
 .edu-bot > h1 {
     text-align: center;
     padding-top: 30px;
+}
+
+.connection-requests {
+    margin-bottom: 25px;
+}
+
+.topAcceptOrNah, .botAcceptOrNah {
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.connection-requests-top {
+    margin-bottom: -15px;
+}
+
+.top-friend-circle {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.topFriendDiv {
+    margin-right: 60px;
+}
+
+.bot-friend {
+    margin-right: 250px;
+}
+
+.bot-friend-circle {
+    margin-right: 80px;
+}
+
+.bot-friend > h1 {
+    margin-left: -60px;
+}
+
+.connection-requests-bottom {
+    height: 250px;
 }
